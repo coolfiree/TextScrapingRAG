@@ -4,3 +4,4 @@ langchain-google-genai
 python-dotenv
 chromadb
 langchain-community
+bs4
