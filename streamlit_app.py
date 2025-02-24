@@ -19,8 +19,8 @@ load_dotenv()
 
 #API KEY
 GOOGLE_API_KEY = ""
-#GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-GOOGLE_API_KEY == ""
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
 if (GOOGLE_API_KEY == "") :
     GOOGLE_API_KEY = st.text_input("Google API Key", type="password")
     st.info("Please add your Google API key to continue.", icon="🗝️")
