@@ -12,6 +12,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 from dotenv import load_dotenv
 
+import sqlite3
+print(sqlite3.sqlite_version)
+
 load_dotenv()
 
 #API KEY
