@@ -11,7 +11,11 @@ A simple app for Text Scraping and RAG
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Create a environment variable for GOOGLE_API_KEY
+   Create a .env file
+   GOOGLE_API_KEY = YOUR_API_KEY
+
+3. Run the app
    ```
    $ streamlit run streamlit_app.py
    ```
