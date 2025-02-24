@@ -21,7 +21,6 @@ GOOGLE_API_KEY == ""
 if (GOOGLE_API_KEY == "") :
     GOOGLE_API_KEY = st.text_input("Google API Key", type="password")
     st.info("Please add your Google API key to continue.", icon="🗝️")
-    exit(0)
     
 #defining the app title and description
 st.title('RAG App')
